@@ -1,0 +1,332 @@
+@font-face {
+  font-family: "roadrage";
+  src: url('../font/roadrage.ttf');
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/background.jpg') repeat;
+  text-align: center;
+}
+.txt {
+  margin: 40px 0 20px 0;
+  font-family: "spincycle";
+  font-size: 2.6em;
+  color: #fff;
+}
+.txt2 {
+  margin: 35px 30px 30px 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.txt3 {
+  margin: 0 0 30px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.btn {
+  width: 320px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px 0 40px 0;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #000;
+  letter-spacing: 1px;
+  outline: none;
+}
+.btn:hover {
+  background: 0;
+  color: #fff;
+}
+.fa.fa-angle-double-right {
+  animation: blink-animation 0.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.img {
+  width: 300px;
+  height: auto;
+  outline: none;
+}
+#menu {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0 0 0 0;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+.kotak-kiri {
+  width: 140px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 0 15px 0 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.kotak-kanan {
+  width: 140px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px 0 15px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.kotak-mid {
+  width: 140px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.fa.fa-user-circle,.fa.fa-globe,.fa.fa-dollar,.fa.fa-cog,.fa.fa-sign-in,.fa.fa-warning,.fa.fa-hdd-o,.fa.fa-thumbs-o-up {
+  font-size: 2em;
+  color: #000;
+}
+.txt-kotak {
+  margin: 10px 0 0 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+.menu2 {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+.kotak2 {
+  width: 250px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background: 0;
+  text-align: left;
+  float: left;
+}
+.txt4 {
+  margin: 20px 0 0 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #000;
+  letter-spacing: 1px;
+}
+.txt5 {
+  margin: 10px 0 0 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgba(0,0,0, 0.8);
+  letter-spacing: 0.5px;
+}
+.btn-close {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background: 0;
+  border: 0;
+  float: right;
+  outline: none;
+}
+.img-close {
+  width: 25%;
+  height: 25%;
+  margin: 0 0 9px 15px;
+  outline: none;
+}
+.scroll {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: 0;
+  border: 0;
+  text-align: center;
+  overflow-y: scroll;
+  position: fixed;
+  top: 110px;
+  right: 10px;
+  bottom: 30px;
+  left: 10px;
+}
+.kotak-konten {
+  width: 130px;
+  height: 65px;
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.konten2 {
+  width: 130px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 2px 0;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #000;
+}
+.txt6 {
+  display: inline-block;
+  margin: 12px 0 0 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #fff;
+}
+.kotak-konten2 {
+  width: 280px;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.konten2ok {
+  width: 280px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 2px 0;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #000;
+}
+.harga {
+  width: 100%;
+  margin: 7px 0;
+  background: #000;
+  border-collapse: collapse;
+  border: 0;
+}
+.harga, td {
+  padding: 8px;
+  border: 0;
+  border-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+}
+.kotak-login {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 10px 20px 20px 20px;
+  padding: 0;
+  background: 0;
+  border: 0;
+  text-align: left;
+}
+.txt7 {
+  margin: 0 0 5px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #000;
+}
+.form1 {
+  width: 100%;
+  height: 30px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: 0;
+  border: 0;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  outline: none;
+}
+.btn-login {
+  width: 120px;
+  height: 33px;
+  margin: 10px;
+  padding: 0;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  color: #fff;
+}
+.btn-login:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn-edit {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 0 0 2px;
+  padding: 0;
+  background: 0;
+  border: 0;
+  color: #fff;
+  outline: none;
+}
