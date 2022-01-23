@@ -2,9 +2,9 @@
   "name": "api-viko",
   "version": "1.9.0",
   "description": "My Rest Api free",
-  "main": "nodemon index.js",
+  "main": "nodemon index.html",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.html"
   },
   "repository": {
     "type": "git",
